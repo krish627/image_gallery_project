@@ -54,3 +54,27 @@ img{
     padding:2px;
     box-shadow: 0 0 20px rgb(248, 247, 247);
 }
+
+@media(max-width:400px)
+{
+
+  .container{
+    
+    margin: 0 auto;
+    height:auto;
+    overflow-x:hidden;
+  
+   
+   
+    
+  }
+
+  .card{
+    width:100%;
+    margin-bottom: 0.2rem;
+    filter: grayscale(100%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(250, 247, 247);
+    position:relative;
+  }
+}
